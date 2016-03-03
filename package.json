@@ -1,0 +1,26 @@
+{
+  "name": "eslint-config-mybigday",
+  "version": "0.0.1",
+  "description": "MyBigDay's ESLint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mybigday/eslint-config-mybigday"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "mybigday"
+  ],
+  "bugs": {
+    "url": "https://github.com/mybigday/eslint-config-mybigday/issues"
+  },
+  "homepage": "https://github.com/mybigday/eslint-config-mybigday",
+  "author": "MyBigDay <contact@mybigday.com.tw>",
+  "license": "MIT",
+  "peerDependencies": {
+    "babel-eslint": "^5.0.0",
+    "eslint": "^2.2.0",
+    "eslint-plugin-react": "^4.0.0"
+  }
+}
