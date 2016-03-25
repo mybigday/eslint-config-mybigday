@@ -19,7 +19,7 @@
   "author": "MyBigDay <contact@mybigday.com.tw>",
   "license": "MIT",
   "peerDependencies": {
-    "babel-eslint": "^5.0.0",
+    "babel-eslint": "^5.0.0 || 6.0.0-beta.6",
     "eslint": "^2.2.0",
     "eslint-plugin-react": "^4.0.0"
   }
