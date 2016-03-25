@@ -1,26 +1,6 @@
 module.exports = {
-  "parser": "babel-eslint",
+  "extends": require.resolve('./base'),
   "rules": {
-    // Javascript part
-    "strict": 0,
-    "indent": [
-      2,
-      "tab"
-    ],
-    "quotes": [
-      2,
-      "double"
-    ],
-    "linebreak-style": [
-      2,
-      "unix"
-    ],
-    "semi": [
-      2,
-      "always"
-    ],
-    "no-console":0,
-
     // React part
     "react/jsx-boolean-value": [1, "always"],
     "react/jsx-closing-bracket-location": 1,
@@ -55,17 +35,10 @@ module.exports = {
     "react/self-closing-comp": 1,
     "react/sort-comp": 1,
     "react/wrap-multilines": 1,
-    "jsx-quotes": 1,
+    "jsx-quotes": 1
   },
-  "env": {
-    "es6": true,
-    "node": true
-  },
-  "extends": "eslint:recommended",
   "ecmaFeatures": {
-    "jsx": true,
-    "experimentalObjectRestSpread": true,
-    "modules": true
+    "jsx": true
   },
   "plugins": [
     "react"
