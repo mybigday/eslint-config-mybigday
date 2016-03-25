@@ -4,5 +4,12 @@
 
 ## Usage
 
+#### Base
+
+1. `npm install --save-dev eslint babel-eslint eslint-config-mybigday`
+2. Add "extends": "mybigday/base" to your .eslintrc
+
+#### Base + React
+
 1. `npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-config-mybigday`
 2. Add "extends": "mybigday" to your .eslintrc
