@@ -37,6 +37,9 @@ module.exports = {
     "react/wrap-multilines": 1,
     "jsx-quotes": 1
   },
+  "env": {
+    "browser": true
+  },
   "ecmaFeatures": {
     "jsx": true
   },

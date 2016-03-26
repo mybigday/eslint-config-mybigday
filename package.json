@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mybigday",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "MyBigDay's ESLint config",
   "main": "index.js",
   "repository": {
@@ -19,8 +19,8 @@
   "author": "MyBigDay <contact@mybigday.com.tw>",
   "license": "MIT",
   "peerDependencies": {
-    "babel-eslint": "^5.0.0 || 6.0.0-beta.6",
-    "eslint": "^2.2.0",
+    "babel-eslint": "^6.0.0",
+    "eslint": "^2.4.0",
     "eslint-plugin-react": "^4.0.0"
   }
 }
